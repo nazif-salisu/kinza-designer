@@ -1,0 +1,26 @@
+#about-me {
+  display: none;
+}
+@media screen and (max-width: 970px) {
+  #about-me {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #about-me .desc {
+    width: 100vw;
+    margin-top: 0rem;
+  }
+  #about-me .desc p {
+    padding: 0rem 4rem;
+  }
+}
+@media screen and (max-width: 710px) {
+  #about-me .desc p {
+    padding: 0rem 1rem;
+  }
+}

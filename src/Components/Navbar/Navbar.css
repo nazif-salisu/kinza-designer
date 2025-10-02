@@ -1,0 +1,125 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+  height: 3rem;
+  border-bottom: 1px solid #800080;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+}
+.nav-menu {
+  display: none;
+}
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+.navbar .logo p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #800080;
+  font-family: "Josefin Sans";
+}
+.navbar .logo .search {
+  display: flex;
+  gap: 0.3rem;
+}
+.navbar .logo input::placeholder {
+  color: #f3f3f3;
+}
+.navbar .logo input {
+  outline: none;
+  border: 1px solid #f3f3f3;
+  background: transparent;
+  color: #fff;
+  height: 1.5rem;
+  padding: 0rem 1rem;
+  width: 15rem;
+  border-radius: 5px;
+}
+.navbar .logo button {
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #00b7ff;
+  height: 1.5rem;
+  border-radius: 5px;
+}
+.navbar .list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.navbar .list p {
+  font-size: 0.8rem;
+  color: #fff;
+}
+.navbar .message button {
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #800080;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+}
+@media screen and (max-width: 700px) {
+  .navbar .list {
+    display: none;
+  }
+  .navbar .logo {
+    display: none;
+  }
+  .navbar .message {
+    display: none;
+  }
+  .nav-menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-menu .logo {
+    display: flex;
+  }
+  .nav-menu img {
+    height: 2rem;
+  }
+  .nav-menu .nav-menu-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-menu .nav-menu-list .list {
+    display: flex;
+    position: absolute;
+    background: #fff;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    flex-direction: column;
+    z-index: 1;
+    text-align: left;
+    gap: 0rem;
+    right: 10px;
+    top: 50px;
+    width: 5rem;
+  }
+  .nav-menu .nav-menu-list .list p {
+    color: #18151b;
+    background: #f3f3f3;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    border-radius: 10px;
+  }
+  .desktopMenuMob.active {
+    color: #00b7ff;
+  }
+  .nav-menu .logo p {
+    color: #fff;
+    font-family: "Josefin Sans";
+  }
+}
