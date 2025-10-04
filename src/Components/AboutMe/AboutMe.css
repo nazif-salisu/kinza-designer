@@ -4,7 +4,7 @@
 @media screen and (max-width: 970px) {
   #about-me {
     overflow: hidden;
-    display: flex;
+    display: '';
     flex-direction: column;
     width: 100vw;
     align-items: center;

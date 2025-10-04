@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../Components/Navbar/Navbar'
 import Hero from '../Components/Hero/Hero'
-import Listings from '../Components/Listings/Listings'
-import WhyChooseUs from '../Components/WhyChooseUs/WhyChooseUs'
-import MyWorks from '../Components/MyWorks/MyWorks'
+import Designs from '../Components/Designs/Designs'
 import Footer from '../Components/Footer/Footer'
 import AboutMe from '../Components/AboutMe/AboutMe'
+import SocialLinks from '../Components/SocialLinks/SocialLinks'
+import Services from '../Components/WhyChooseUs/Services'
 
 
 const Home = () => {
@@ -14,9 +14,9 @@ const Home = () => {
       <Navbar/>
       <Hero/>
       <AboutMe/>
-      <Listings/>
-      <WhyChooseUs/>
-      <MyWorks/>
+      <SocialLinks/>
+      <Services/>
+      <Designs/>
       <Footer/>
     </div>
   )

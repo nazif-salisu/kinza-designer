@@ -1,0 +1,40 @@
+#social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.social-link {
+  display: flex;
+  width: 60vw;
+  height: 13vh;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background: linear-gradient(-5deg, #32a4a8, #050816, #32a4a8);
+  border: 1px solid #32a4a8;
+  border-radius: 10px;
+}
+.social-link:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}
+.social-link img {
+  display: flex;
+  height: 2rem;
+}
+@media screen and (max-width: 680px) {
+  .social-link {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .social-link {
+    width: 80vw;
+    height: 15vh;
+  }
+  .social-link h4 {
+    font-size: 0.8rem;
+  }
+}
