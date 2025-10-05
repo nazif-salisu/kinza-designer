@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import hero from '../../Assets/hero2.png'
+import hero from '../../Assets/hero3.png'
 
 const Hero = () => {
   return (

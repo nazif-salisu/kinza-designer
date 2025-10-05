@@ -1,8 +1,8 @@
 import React from 'react'
 import './Footer.css'
-import facebook from '../../Assets/facebook.png'
-import behance from '../../Assets/behance.png'
-import email from '../../Assets/email.png'
+import facebook from '../../Assets/facebook.svg'
+import behance from '../../Assets/behance.svg'
+import email from '../../Assets/email.svg'
 
 
 const Footer = () => {
