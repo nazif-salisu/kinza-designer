@@ -6,6 +6,7 @@ import Footer from '../Components/Footer/Footer'
 import AboutMe from '../Components/AboutMe/AboutMe'
 import SocialLinks from '../Components/SocialLinks/SocialLinks'
 import Services from '../Components/WhyChooseUs/Services'
+import Latest from '../Components/MyLatest/latest'
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <AboutMe/>
       <SocialLinks/>
       <Services/>
+      <Latest/>
       <Designs/>
       <Footer/>
     </div>

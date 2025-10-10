@@ -1,0 +1,12 @@
+.my-latest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.my-latest .latest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
